@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Theme Simply Me</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .bg-1 {
+      background-color:#1abc9c;
+      color:#7FFF00;
+    }
+    .bg-2{
+      background-color:#008B8B;
+      color:#7FFF00;
+    }
+    .bg-3{
+      background-color:#2f2f2f;
+      color:#7FFF00;
+    }
+    .bg-4{
+      background-color:#2f2f2f;
+      color:#7FFF00;
+    }
+    .container-fluid{
+      padding-top:70px;
+      padding-bottom:70px;
+    }
+    .navbar{
+      padding-top:15px;
+      padding-bottom:15px;
+      border:0;
+      border-radius:0;
+      margin-bottom:0;
+      font-size:12px;
+      letter-spacing:5px;
+      background-color:#ffffff;
+    }
+    .navbar-nav li a:hover {
+      color:#1abc9c !important;
+    }
+    @font-face {
+        font-family: 'gang_bang_crimeregular';
+        src: url('gang_bang_crime-webfont.woff2') format('woff2'),
+             url('gang_bang_crime-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    body {
+      font-family:'gang_bang_crimeregular';
+      letter-spacing:2.5px;
+    }
+/* Custom navbar styles from stack exchange to override Bootstraps navbar - just had to add navbar-custom class to navbar*/
+    .navbar-custom {
+      background-color:#2f2f2f;
+      color:#7FFF00;
+      border-radius:0;
+    }
+
+    .navbar-custom .navbar-nav > li > a {
+      color:#7FFF00;
+    }
+    .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+      color: #7FFF00;
+      background-color:transparent;
+    }
+    .navbar-custom .navbar-brand {
+      color:#7FFF00;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-custom">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19">Me</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19">WHO</a></li>
+        <li><a href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19">WHAT</a><li>
+        <li><a href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center">
+  <h3>Who Am I?</h3>
+  <img src="https://s15-us2.ixquick.com/cgi-bin/serveimage?url=http%3A%2F%2Fimg3.wikia.nocookie.net%2F__cb20131027193219%2Fadventuretimewithfinnandjake%2Fimages%2F1%2F18%2FS4e14_BMO_with_board.png&sp=c77183110ed91199657daffbb3b07e5f" alt="BMO" class="img-responsive img-circle" style="display:inline" width="350" height="350">
+  <h3>I'm a goddamn hero</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3>What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <a href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search">Search</span>
+  </a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Where To Find Me?</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <img src="https://s15-us2.ixquick.com/cgi-bin/serveimage?url=http%3A%2F%2F67.media.tumblr.com%2F534425eb11706448af8ce5838629f76d%2Ftumblr_inline_n9t8gdzC7p1qzjzhu.gif&sp=61287637d9f8e8e5a243cead67aea327" class="img-responsive img-circle" style="width:100%" alt="Grass Sword!">
+    </div>
+
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <img src="https://s15-us2.ixquick.com/cgi-bin/serveimage?url=http%3A%2F%2F25.media.tumblr.com%2Ftumblr_mdn8qm7RF31ryacpio1_250.gif&sp=78e8201c58c9edb80a3d93ea5fae4d50" class="img-responsive img-circle" style="width:100%" alt="Jaaaaake">
+    </div>
+
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <img src="https://s15-us2.ixquick.com/cgi-bin/serveimage?url=https%3A%2F%2F66.media.tumblr.com%2Faf2ada409219606a9cf545e6fc97f3e1%2Ftumblr_n9crht2X4c1rmoy1jo1_500.gif&sp=e89ab42ec00bb53ed00673125aefee4f" class="img-responsive img-circle" style="width:100%" alt="Flesh Magic">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Site by <a href="https://s14-eu5.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fs-media-cache-ak0.pinimg.com%2F564x%2F69%2F60%2F5d%2F69605defaf9062959bab99b954f6e294.jpg&sp=5004e6afaa57c7c35d6f7e42d34afd19">LaserHawkIII</a></p>
+</footer>
+
+</body>
+</html>
